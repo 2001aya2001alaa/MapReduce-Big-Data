@@ -36,6 +36,11 @@ public class REDUCE extends Reducer<Text, Text, Text, Text>{
                 outValue.set("null," + t1Record.getKey());
                 context.write(outKey, outValue);
             }
-        }
+        }else if(t1Records.isEmpty() && !t2Attribute.isEmpty()){
+		for (Map.Entry<String, String> t1Record : t1Records.entrySet()) {
+                outKey.set("null");
+                outValue.set(t2Attribute + "," + t1Record.getKey());
+                context.write(outKey, outValue);
+	}		
     }
 }
