@@ -1,1 +1,1 @@
-# MapReduce-Big-Data-Assignment-Course
+# MapReduce-Big-Data-Course-Assignment
