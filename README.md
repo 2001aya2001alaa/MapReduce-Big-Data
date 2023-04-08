@@ -6,13 +6,13 @@
 
 ## The Requirements
 1. Write a map/reduce program to do an inner join between T1 and T2 where A1 in T1 is a foreign key in T2.  
-The query results should be:.  
+The query results should be:  
 (A, 1,X).  
 (B, 2,X).  
 (C, 3,X).  
 
 2. Write a map/reduce program to do a full outer join between T1 and T2 where A1 in T1 is a foreign key in T2.  
-The query results should be:.  
+The query results should be:  
 (A, 1,X).  
 (B, 2,X).  
 (C, 3,X).  
