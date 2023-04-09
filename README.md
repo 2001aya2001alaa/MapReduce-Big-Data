@@ -23,4 +23,4 @@ The query results should be:
 (null, 8, z)  
 
 3. Write a map/reduce program to find out the difference between two attributes.  
-4.  For example : A1[T1] – A1[T2] , The result would [4,5,6,7,8]
+For example : A1[T1] – A1[T2] , The result would [4,5,6,7,8]
