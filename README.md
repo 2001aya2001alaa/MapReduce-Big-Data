@@ -24,3 +24,9 @@ The query results should be:
 
 3. Write a MapReduce program to find out the difference between two attributes.  
 For example : A1[T1] – A1[T2] , The result would [4,5,6,7,8]
+
+## The Benefits of MapReduce
+1. MapReduce is used for parallel computing and offline computing of large-scale datasets (larger than 1 TB).
+2. Highly abstract programming ideas: Programmers only need to describe what to do, and the execution framework will process the work accordingly. 
+3. Outstanding scalability: Cluster capabilities can be improved by adding nodes.
+4. High fault tolerance: Cluster availability and fault tolerance are improved using policies, such as computing or data migration.
