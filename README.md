@@ -1,4 +1,4 @@
-# MapReduce-Big-Data-Course-Assignment
+# MapReduce-Big-Data
 
 ## The Data
 1. The following data items where each item represents a record on a table; each record is have 3 values (Table name, PK, AttributeValue).
